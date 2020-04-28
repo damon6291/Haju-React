@@ -1,0 +1,45 @@
+.container {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  .contactUs {
+    padding-bottom: 25px;
+    font-size: 2rem;
+  }
+  .required {
+    padding-bottom: 25px;
+    color: grey;
+  }
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 55%;
+    .placeHolder {
+      text-align: left;
+      padding-bottom: 5px;
+    }
+    .input {
+      border: 1px solid black;
+      margin-bottom: 3px;
+      border-width: 10;
+      height: 20px;
+      font-size: 1.2rem;
+    }
+    .message {
+      height: 70px;
+    }
+    .error {
+      color: red;
+      opacity: 100;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .submitButton {
+      width: 100px;
+      height: 50px;
+    }
+  }
+}

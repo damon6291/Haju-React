@@ -1,0 +1,18 @@
+@import "../../style/Style.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $backGround;
+  padding: 40px;
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .text {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+}
