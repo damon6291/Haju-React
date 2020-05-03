@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  .slide {
+    height: 50vh;
+    width: 97%;
+    overflow: hidden;
+  }
+  .text {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    .infoh {
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 0.2rem;
+      margin-bottom: 2%;
+      margin-top: 3%;
+    }
+    .info {
+      font-size: 1.2rem;
+      margin-bottom: 5%;
+    }
+  }
+  .intro {
+    width: 97%;
+    .menu {
+      display: flex;
+      .image {
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        margin-top: 2%;
+        max-height: 367.64px;
+      }
+    }
+  }
+}

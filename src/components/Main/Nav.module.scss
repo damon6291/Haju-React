@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  width: 50%;
+  background-color: green;
+  margin-top: 2%;
+  .texta {
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+  .textb {
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+  }
+  .button {
+    background-color: orange; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: red;
+    transition: 0.5s ease-out;
+  }
+}

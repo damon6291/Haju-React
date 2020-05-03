@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { Main, Menu, About, Contact, Location } from "../index.js";
 import styles from "./Navigation.module.scss";
+import cx from "classnames";
 
 const Navigation = () => {
   return (
@@ -22,7 +23,7 @@ const Navigation = () => {
         <Link className={styles.link} to="/Location">
           Location
         </Link>
-        <Link className={styles.link} to="/Order">
+        <Link className={cx(styles.link, styles.order)} to="/Order">
           Order Now
         </Link>
       </div>
