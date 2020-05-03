@@ -16,6 +16,7 @@ const Main = () => {
     <div className={styles.container}>
       <div className={styles.slide}>
         <AutoplaySlider
+          className={styles.autoslider}
           play={true}
           cancelOnInteraction={false} // should stop playing on user interaction
           interval={4000}
