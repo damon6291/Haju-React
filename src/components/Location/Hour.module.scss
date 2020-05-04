@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+  }
+  .number {
+    margin-bottom: 20%;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  .number:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.3s;
+  }
+  .date {
+    font-size: 1.2rem;
+    margin-bottom: 4%;
+  }
+  .time {
+    margin-bottom: 10%;
+  }
+}
