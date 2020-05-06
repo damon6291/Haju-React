@@ -1,21 +1,21 @@
 import gsap from "gsap";
+import ScrollMagic from "scrollmagic";
 
-export const fadeInUp = (node, delay) => {
-  gsap.from(node, {
-    y: 60,
-    duration: 1,
-    delay: delay,
-    opacity: 0,
-    ease: "power3.inOut",
-  });
-};
+import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 
-export const fadeInDown = (node, delay) => {
+export const fadeIn = (node, xVal, yVal, duration) =>
   gsap.from(node, {
-    y: -60,
-    duration: 1,
-    delay: delay,
+    x: xVal,
+    y: yVal,
+    duration: duration,
     opacity: 0,
-    ease: "power3.inOut",
+    ease: "power2.inOut",
   });
-};
+
+export const sceneConstructor = (element, xval, yval, duration) =>
+  new ScrollMagic.Scene({
+    triggerElement: element,
+    triggerHook: "0.85",
+  }).setTween(fadeIn(element, xval, yval, duration));
+
+export const sceneController = () => new ScrollMagic.Controller();

@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+import { sceneConstructor2, sceneController, sceneConstructor } from "../../Animation/Animation";
 
 import styles from "./Hour.module.scss";
 
 const Hour = () => {
+  var controller = sceneController();
+  let container = useRef(null);
+
+  useEffect(() => {
+    let sceneHour = sceneConstructor(container, 0, 60, 0.4);
+    controller.addScene(sceneHour);
+  });
+
   return (
-    <div className={styles.container}>
+    <div ref={(e) => (container = e)} className={styles.container}>
       <span className={styles.title}>Address</span>
       <a
         className={styles.number}

@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { Main, Menu, About, Contact, Location } from "../index.js";
 import styles from "./Navigation.module.scss";
 import cx from "classnames";
 import logo from "../../assets/haju-logo.png";
+import { sceneConstructor, sceneController } from "../Animation/Animation";
 
 const Navigation = () => {
+  var controller = sceneController();
+  let container = useRef(null);
+
+  useEffect(() => {
+    let sceneContainer = sceneConstructor(container, 0, 60, 0.5);
+
+    controller.addScene(sceneContainer);
+  });
   return (
     <Router>
-      <div className={styles.container}>
+      <div ref={(e) => (container = e)} className={styles.container}>
         <Link className={cx(styles.link, styles.head)} to="/">
           <img className={styles.logo} src={logo} alt="" />
         </Link>

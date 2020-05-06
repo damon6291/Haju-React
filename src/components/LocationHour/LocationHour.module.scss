@@ -7,13 +7,18 @@
     font-size: 2.5rem;
     margin-top: 2%;
     letter-spacing: 0.3rem;
+    display: flex;
+    justify-content: center;
+    .titleLocation {
+      margin-right: 10px;
+    }
+    .titleHours {
+      margin-left: 10px;
+    }
   }
   .container {
-    height: 100vh;
-    min-height: 600px;
     display: flex;
-    flex-direction: row;
-    .mapContainer {
+    .location {
       width: 50%;
     }
     .hour {
