@@ -35,6 +35,11 @@
     width: 97%;
     .menu {
       display: flex;
+      .nav {
+        width: 50%;
+        height: auto;
+        max-height: 367.64px;
+      }
       .image {
         width: 50%;
         height: auto;

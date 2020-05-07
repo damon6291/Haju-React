@@ -58,6 +58,7 @@ const Main = () => {
       <div className={styles.intro}>
         <div ref={(e) => (menu = e)} className={styles.menu}>
           <Nav
+            className={styles.nav}
             text1={"Authentic Korean Food"}
             text2={
               "No time to cook? Fjord can make your meals easy with carry-out options available at all our locations. See what’s available at the closest Fjord near you. "
