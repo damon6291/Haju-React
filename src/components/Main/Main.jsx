@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from "react";
-import I1 from "../../assets/image1.png";
-import I2 from "../../assets/image2.jpg";
-import I3 from "../../assets/image3.png";
+import I1 from "../../assets/bibimbap.jpg";
+import I2 from "../../assets/spicypork.jpg";
+import I3 from "../../assets/chicken.jpg";
+import Kfood from "../../assets/kfood.jpg";
+import largeKfood from "../../assets/largeKfood.jpg";
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
@@ -65,10 +67,10 @@ const Main = () => {
             }
             buttonName={"Menus"}
           />
-          <img className={styles.image} src={I2} alt="" />
+          <img className={styles.image} src={Kfood} alt="" />
         </div>
         <div ref={(e) => (contact = e)} className={styles.menu}>
-          <img className={styles.image} src={I2} alt="" />
+          <img className={styles.image} src={largeKfood} alt="" />
           <Nav
             text1={"Large Order?"}
             text2={

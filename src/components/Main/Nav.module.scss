@@ -1,3 +1,5 @@
+@import "../../style/Style.scss";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@
   text-align: center;
   padding: 5%;
   width: 50%;
-  background-color: green;
+  background-color: $infobg;
   margin-top: 2%;
   .texta {
     font-size: 3rem;
@@ -16,7 +18,7 @@
     margin-bottom: 10%;
   }
   .button {
-    background-color: orange; /* Green */
+    background-color: $infobutton; /* Green */
     border: none;
     color: black;
     padding: 15px 32px;
@@ -27,7 +29,7 @@
     cursor: pointer;
   }
   .button:hover {
-    background-color: red;
+    background-color: $infobuttonhover;
     transition: 0.5s ease-out;
   }
 }
