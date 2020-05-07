@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Haju-React/precache-manifest.a7ae7f43cb6d08bf0974aa3fc26a4979.js"
+  "/Haju-React/precache-manifest.f0f688a7be2967f0ccb225d527597063.js"
 );
 
 self.addEventListener('message', (event) => {
