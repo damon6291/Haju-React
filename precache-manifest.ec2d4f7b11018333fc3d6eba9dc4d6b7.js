@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1e183d5c2207cf31fbeb3d1eb1562d9",
+    "revision": "a66442bacd2a0b49d20eb862c8a475e4",
     "url": "/Haju-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Haju-React/static/css/2.6cffe261.chunk.css"
   },
   {
-    "revision": "8aadbe61e991de25816b",
+    "revision": "f586a3280b945b438a3a",
     "url": "/Haju-React/static/css/main.5bc09a28.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Haju-React/static/js/2.1c5be774.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8aadbe61e991de25816b",
-    "url": "/Haju-React/static/js/main.5ed2ff69.chunk.js"
+    "revision": "f586a3280b945b438a3a",
+    "url": "/Haju-React/static/js/main.16d0b9f8.chunk.js"
   },
   {
     "revision": "96e1d0b12b3f116a2c3d",
