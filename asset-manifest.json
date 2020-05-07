@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Haju-React/static/css/main.47f84c0b.chunk.css",
+    "main.js": "/Haju-React/static/js/main.fff8ed1f.chunk.js",
+    "main.js.map": "/Haju-React/static/js/main.fff8ed1f.chunk.js.map",
+    "runtime-main.js": "/Haju-React/static/js/runtime-main.8bf7240b.js",
+    "runtime-main.js.map": "/Haju-React/static/js/runtime-main.8bf7240b.js.map",
+    "static/css/2.6cffe261.chunk.css": "/Haju-React/static/css/2.6cffe261.chunk.css",
+    "static/js/2.5c4e79ee.chunk.js": "/Haju-React/static/js/2.5c4e79ee.chunk.js",
+    "static/js/2.5c4e79ee.chunk.js.map": "/Haju-React/static/js/2.5c4e79ee.chunk.js.map",
+    "index.html": "/Haju-React/index.html",
+    "precache-manifest.a7ae7f43cb6d08bf0974aa3fc26a4979.js": "/Haju-React/precache-manifest.a7ae7f43cb6d08bf0974aa3fc26a4979.js",
+    "service-worker.js": "/Haju-React/service-worker.js",
+    "static/css/2.6cffe261.chunk.css.map": "/Haju-React/static/css/2.6cffe261.chunk.css.map",
+    "static/css/main.47f84c0b.chunk.css.map": "/Haju-React/static/css/main.47f84c0b.chunk.css.map",
+    "static/js/2.5c4e79ee.chunk.js.LICENSE.txt": "/Haju-React/static/js/2.5c4e79ee.chunk.js.LICENSE.txt",
+    "static/media/image1.png": "/Haju-React/static/media/image1.30e166fa.png",
+    "static/media/image2.jpg": "/Haju-React/static/media/image2.e9588a3f.jpg",
+    "static/media/image3.png": "/Haju-React/static/media/image3.30e166fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bf7240b.js",
+    "static/css/2.6cffe261.chunk.css",
+    "static/js/2.5c4e79ee.chunk.js",
+    "static/css/main.47f84c0b.chunk.css",
+    "static/js/main.fff8ed1f.chunk.js"
+  ]
+}
