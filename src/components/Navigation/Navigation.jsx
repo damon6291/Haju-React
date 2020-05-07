@@ -18,7 +18,7 @@ const Navigation = () => {
   return (
     <Router>
       <div ref={(e) => (container = e)} className={styles.container}>
-        <Link className={cx(styles.link, styles.head)} to="/">
+        <Link className={cx(styles.link, styles.head)} to="/Haju-React">
           <img className={styles.logo} src={logo} alt="" />
         </Link>
         <Link className={styles.link} to="/About">
@@ -40,7 +40,7 @@ const Navigation = () => {
         </a>
       </div>
       <Switch>
-        <Route path="/" exact component={Main}></Route>
+        <Route path="/Haju-React" exact component={Main}></Route>
         <Route path="/Menu" exact component={Menu}></Route>
         <Route path="/About" exact component={About}></Route>
         <Route path="/Contact" exact component={Contact}></Route>
