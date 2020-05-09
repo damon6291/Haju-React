@@ -1,0 +1,42 @@
+.backcardcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    width: 376px;
+    height: 217px;
+    border: 2px solid #E5E5E5;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+  }
+
+  .backcardtitle {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 10px 10px;
+  }
+
+  .backcarddescription {
+      margin: 15px 10px;
+      font-style: italic;
+
+  }
+
+  .backcardfooter {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .backcardrating {
+    align-items: center;
+    font-weight: 600;
+  }
+  .backcardcalories {
+    margin-left: 15px;
+    font-weight: 600;
+  }
+
+  .orderbutton {
+    border-radius: 1px;
+  }

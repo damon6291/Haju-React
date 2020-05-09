@@ -1,0 +1,42 @@
+.meunucardcontainer {
+    display: flex;
+    margin: 10px 10px;
+    width: 376px;
+    height: 217px;
+    border: 2px solid #E5E5E5;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+ 
+  }
+  
+  .meunucardimagecontainer {
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+      
+  }
+  
+  .menucardimage {
+      object-fit: cover;
+      height: 197px;
+      width: 183px;
+      border-radius: 5px;
+  }
+  
+  .menucardwordcontainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      width: 100%;
+  }
+  .menuname {
+      font-weight: bold;
+      font-size: 20px;
+  }
+  
+  .menuprice {
+      font-size: 18px;
+      opacity: 0.7;
+  }

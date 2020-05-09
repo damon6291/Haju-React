@@ -1,0 +1,71 @@
+{
+  "topMenuItems": [
+    {
+      "seafoodsoondubu": [
+        {
+          "name": "Seafood Soondubu",
+          "price": "$13.95",
+          "description": "Tofu, onion, mushroom, zucchini, scallion, shrimp, clam, squid and octopus. Soft tofu soup served with steamed rice.",
+          "rating": "4.8",
+          "calories": "234",
+          "img": "",
+          "alt": ""
+        }
+      ]
+    },
+
+    {
+      "beefsoondubu": [
+        {
+          "name": "Beef Soondubu",
+          "price": "$14.95",
+          "description": "Tofu, beef, onion, mushroom, zucchini and scallion. Soft tofu soup served with steamed rice.",
+          "rating": "4.6",
+          "calories": "224",
+          "img": "",
+          "alt": ""
+        }
+      ]
+    },
+
+    {
+      "soyhoneygalicwings": [
+        {
+          "name": "Soy Honey Galic Wings",
+          "price": "$14.95",
+          "description": "* Half & half sauce is only available from medium size and up.",
+          "rating": "4.8",
+          "calories": "364",
+          "img": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "chickenmayoricebowl": [
+        {
+          "name": "Chicken Mayo Rice Bowl",
+          "price": "$13.95",
+          "description": "Chopped fried chicken, sliced fried eggs, caramelized onion, pickled radish, chopped kimchi, seaweed with mayo sauce.",
+          "rating": "4.8",
+          "calories": "234",
+          "img": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "seafoodsoondubu": [
+        {
+          "name": "Seafood Soondubu",
+          "price": "$17.00",
+          "description": "Sweet soy beef. Stir fried thinly sliced beef and vegetables marinated with soy sauce. Stir fried with onion, carrot, scallion and mushroom. Served with a side of steamed rice.",
+          "rating": "4.8",
+          "calories": "650",
+          "img": "",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}
