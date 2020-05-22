@@ -3,10 +3,11 @@ import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 import styles from "./Location.module.scss";
 
 const mapStyles = {
-  width: "50%",
+  width: "80%",
   height: "80%",
-  margin: "3% 0",
-  marginLeft: "7%",
+  marginRight: "auto",
+  marginLeft: "auto",
+  marginTop: "4%",
 };
 
 export class Location extends Component {

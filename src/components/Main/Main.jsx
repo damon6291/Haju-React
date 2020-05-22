@@ -4,16 +4,13 @@ import I2 from "../../assets/spicypork.jpg";
 import I3 from "../../assets/chicken.jpg";
 import Kfood from "../../assets/kfood.jpg";
 import largeKfood from "../../assets/largeKfood.jpg";
-import AwesomeSlider from "react-awesome-slider";
-import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import Nav from "./Nav";
+import { Carousel } from "react-bootstrap";
 
 import { sceneConstructor, sceneController } from "../Animation/Animation";
 
 import styles from "./Main.module.scss";
-
-const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Main = () => {
   var controller = sceneController();
@@ -22,6 +19,27 @@ const Main = () => {
   let info = useRef(null);
   let menu = useRef(null);
   let contact = useRef(null);
+
+  const images = [I1, I2, I3];
+
+  const navs = [
+    {
+      text1: "Bakery",
+      text2:
+        "No time to cook? Fjord can make your meals easy with carry-out options available at all our locations. See what’s available at the closest Fjord near you. ",
+      buttonName: "Menu",
+      reference: menu,
+      img: Kfood,
+    },
+    {
+      text1: "Large Order?",
+      text2:
+        "No time to cook? Fjord can make your meals easy with carry-out options available at all our locations. See what’s available at the closest Fjord near you. ",
+      buttonName: "Contact",
+      reference: contact,
+      img: Kfood,
+    },
+  ];
 
   useEffect(() => {
     let sceneMenu = sceneConstructor(menu, 0, 60, 0.4);
@@ -33,26 +51,27 @@ const Main = () => {
     controller.addScene([sceneMenu, sceneContact, sceneInfo, sceneInfoH, sceneSlider]);
   });
 
+  const imageSlider = () => (
+    <Carousel interval={4000}>
+      {images.map((i, index) => (
+        <Carousel.Item key={index}>
+          <img className="d-block w-100" src={i} alt="" />
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  );
+
   return (
     <div className={styles.container}>
       <div ref={(e) => (slider = e)} className={styles.slide}>
-        <AutoplaySlider
-          className={styles.autoslider}
-          play={true}
-          cancelOnInteraction={false} // should stop playing on user interaction
-          interval={4000}
-          bullets={false}>
-          <div data-src={I1} />
-          <div data-src={I2} />
-          <div data-src={I3} />
-        </AutoplaySlider>
+        {imageSlider()}
       </div>
       <div className={styles.text}>
         <span ref={(e) => (infoh = e)} className={styles.infoh}>
-          Haju Kitchen
+          HSJ Bakery
         </span>
         <span ref={(e) => (info = e)} className={styles.info}>
-          At Fjord, we believe there’s a lot more to being in the seafood business than just selling
+          At HSJ, we believe there’s a lot more to being in the seafood business than just selling
           fish. We’re committed to providing the highest quality responsibly-sourced seafood
           available—and on a mission to change the way people think about and choose their seafood.
         </span>

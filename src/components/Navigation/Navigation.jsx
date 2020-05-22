@@ -25,7 +25,7 @@ const Navigation = () => {
           About
         </Link>
         <Link className={styles.link} to="/Location">
-          Location & Hours
+          Location
         </Link>
         <Link className={styles.link} to="/Menu">
           Menu
