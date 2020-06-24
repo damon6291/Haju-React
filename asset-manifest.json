@@ -1,34 +1,35 @@
 {
   "files": {
-    "main.css": "/Haju-React/static/css/main.f19ac794.chunk.css",
-    "main.js": "/Haju-React/static/js/main.eff733bb.chunk.js",
-    "main.js.map": "/Haju-React/static/js/main.eff733bb.chunk.js.map",
+    "main.css": "/Haju-React/static/css/main.6a281857.chunk.css",
+    "main.js": "/Haju-React/static/js/main.d7a1ade5.chunk.js",
+    "main.js.map": "/Haju-React/static/js/main.d7a1ade5.chunk.js.map",
     "runtime-main.js": "/Haju-React/static/js/runtime-main.8bf7240b.js",
     "runtime-main.js.map": "/Haju-React/static/js/runtime-main.8bf7240b.js.map",
     "static/css/2.d77191fc.chunk.css": "/Haju-React/static/css/2.d77191fc.chunk.css",
-    "static/js/2.6b0e8525.chunk.js": "/Haju-React/static/js/2.6b0e8525.chunk.js",
-    "static/js/2.6b0e8525.chunk.js.map": "/Haju-React/static/js/2.6b0e8525.chunk.js.map",
+    "static/js/2.a67b1677.chunk.js": "/Haju-React/static/js/2.a67b1677.chunk.js",
+    "static/js/2.a67b1677.chunk.js.map": "/Haju-React/static/js/2.a67b1677.chunk.js.map",
     "index.html": "/Haju-React/index.html",
-    "precache-manifest.ec2a34eba89aa73184a4409cb6ef0051.js": "/Haju-React/precache-manifest.ec2a34eba89aa73184a4409cb6ef0051.js",
+    "precache-manifest.b8260a2a145a47b3e89084ba51117bd6.js": "/Haju-React/precache-manifest.b8260a2a145a47b3e89084ba51117bd6.js",
     "service-worker.js": "/Haju-React/service-worker.js",
     "static/css/2.d77191fc.chunk.css.map": "/Haju-React/static/css/2.d77191fc.chunk.css.map",
-    "static/css/main.f19ac794.chunk.css.map": "/Haju-React/static/css/main.f19ac794.chunk.css.map",
-    "static/js/2.6b0e8525.chunk.js.LICENSE.txt": "/Haju-React/static/js/2.6b0e8525.chunk.js.LICENSE.txt",
+    "static/css/main.6a281857.chunk.css.map": "/Haju-React/static/css/main.6a281857.chunk.css.map",
+    "static/js/2.a67b1677.chunk.js.LICENSE.txt": "/Haju-React/static/js/2.a67b1677.chunk.js.LICENSE.txt",
     "static/media/Appe.png": "/Haju-React/static/media/Appe.ab6ff0c9.png",
-    "static/media/bibimbap.jpg": "/Haju-React/static/media/bibimbap.1466d167.jpg",
-    "static/media/chicken.jpg": "/Haju-React/static/media/chicken.d2c9d0a6.jpg",
-    "static/media/entree.jpg": "/Haju-React/static/media/entree.cfebf739.jpg",
+    "static/media/budae.jpg": "/Haju-React/static/media/budae.167ada66.jpg",
+    "static/media/bulgogi.jpg": "/Haju-React/static/media/bulgogi.f03c3b6b.jpg",
+    "static/media/entree.jpg": "/Haju-React/static/media/entree.6e3e48b0.jpg",
+    "static/media/entree1.jpg": "/Haju-React/static/media/entree1.1466d167.jpg",
     "static/media/food.jpg": "/Haju-React/static/media/food.55d1b183.jpg",
     "static/media/kfood.jpg": "/Haju-React/static/media/kfood.0b68eda4.jpg",
     "static/media/largeKfood.jpg": "/Haju-React/static/media/largeKfood.b8520a46.jpg",
-    "static/media/logo.png": "/Haju-React/static/media/logo.30e166fa.png",
-    "static/media/spicypork.jpg": "/Haju-React/static/media/spicypork.2ad7641a.jpg"
+    "static/media/logo.jpeg": "/Haju-React/static/media/logo.3dd58c6b.jpeg",
+    "static/media/tteok.jpg": "/Haju-React/static/media/tteok.ed6bb7d9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8bf7240b.js",
     "static/css/2.d77191fc.chunk.css",
-    "static/js/2.6b0e8525.chunk.js",
-    "static/css/main.f19ac794.chunk.css",
-    "static/js/main.eff733bb.chunk.js"
+    "static/js/2.a67b1677.chunk.js",
+    "static/css/main.6a281857.chunk.css",
+    "static/js/main.d7a1ade5.chunk.js"
   ]
 }
